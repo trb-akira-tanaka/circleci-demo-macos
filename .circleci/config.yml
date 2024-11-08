@@ -8,7 +8,7 @@ jobs: # a basic unit of work in a run
       - checkout  # pull down code from your version control system.
       - run:
           name: Display System Information
-          command: System_profiler SPHardwareDataType
+          command: system_profiler SPHardwareDataType
 
   test: # your job name
     macos:
