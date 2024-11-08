@@ -7,7 +7,7 @@ jobs: # a basic unit of work in a run
     steps: # a series of commands to run
       - checkout  # pull down code from your version control system.
       - run:
-          name: Display System Information
+          name: Display System Information # comment 
           command: system_profiler SPHardwareDataType
 
   test: # your job name
