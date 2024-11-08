@@ -41,8 +41,8 @@ workflows:
     jobs:
       - display_system_info
       - test:
-        requires:
-          - display_system_info
+          requires:
+            - display_system_info
       - build:
           requires:
             - test
